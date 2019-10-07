@@ -8,7 +8,7 @@ const createDirIfNotExists = dir => (!fs.existsSync(dir) ? fs.mkdirSync(dir) : u
 
 **Usage:**
 ```
-createDirIfNotExists('test'); 
+createDirIfNotExists('test');
+//creates the directory 'test', if it doesn't exist
 ```
-// creates the directory 'test', if it doesn't exist
 
